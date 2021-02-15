@@ -1,0 +1,51 @@
+name: apql
+
+# The packages we (may) depend on
+dependencies:
+  - base             # For built-in functions like `length`
+  - containers       # For Data.Set, etc.
+  - mtl              # Some standard monads, if needed
+  - text             # For Data.Text, if needed
+  - parsec           # If needed; ReadP is already part of base
+  # Don't add anything else here!
+
+# The APQL libraries
+library:
+  source-dirs: src
+  exposed-modules:
+    - Types
+    - Parser
+    - Preprocessor
+    - Engine
+  other-modules:
+    - Utils
+    - ParserImpl
+    - PreprocessorImpl
+    - EngineImpl
+
+executable:
+  main: Main.hs
+  source-dirs:
+    - app
+  dependencies:
+    - apql
+
+# Sample test suite
+tests:
+  primary-test-suite:
+    main: BlackBox.hs
+    source-dirs: tests
+    dependencies: # not all may be relevant
+      - apql
+      - tasty
+      - tasty-hunit
+      - QuickCheck
+      - tasty-quickcheck
+      # Don't add anything else here
+#  other-test-suite1:  # currently a no-op
+#    main: WhiteBox.hs
+#    source-dirs: [tests/suite1, src]
+#    dependencies: # not all may be relevant
+#      - tasty
+#      - tasty-hunit
+#      # Whatever else you need from the course LTS version

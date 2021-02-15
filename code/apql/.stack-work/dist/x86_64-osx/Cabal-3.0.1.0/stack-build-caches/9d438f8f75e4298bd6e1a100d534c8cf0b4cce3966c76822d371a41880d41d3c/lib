@@ -1,0 +1,40 @@
+/Users/rabbit0v0/Erlang/exam/code/apql/src/Preprocessor.hs:
+  hash: 1014870c04fccb9143fd7c0cf0468f274a48069bb57dddd71c05a3a8126b7cdc
+  size: 136
+  modtime: 1604036408
+/Users/rabbit0v0/Erlang/exam/code/apql/src/PreprocessorImpl.hs:
+  hash: d8d0315bd16b9f5b0d85b7f8f6eda48ab7ca259ba36955389911efcfe131c345
+  size: 6945
+  modtime: 1604546517
+/Users/rabbit0v0/Erlang/exam/code/apql/src/EngineImpl.hs:
+  hash: c8a11900eb7f28474e118c1bb9963e1ef70b028101cb9b026ba0a002c8cbea82
+  size: 10948
+  modtime: 1604542549
+/Users/rabbit0v0/Erlang/exam/code/apql/src/Engine.hs:
+  hash: fd2026ff238bf5c94425f5be96af2d44227324b85c88cba52f40c65429300433
+  size: 108
+  modtime: 1604036416
+/Users/rabbit0v0/Erlang/exam/code/apql/package.yaml:
+  hash: 33f86615108133c10c3f33c72f23090b7d4535c5f3108d5a90bab890404d5130
+  size: 1168
+  modtime: 1604052062
+/Users/rabbit0v0/Erlang/exam/code/apql/apql.cabal:
+  hash: b13db7d67bcfbca8c3b548d3815943248321434208f46feba0c94ae100e7cc6d
+  size: 1147
+  modtime: 1604288058
+/Users/rabbit0v0/Erlang/exam/code/apql/src/Types.hs:
+  hash: 68d00ed9dc51690489a155b9e9464f969446e4cd21e0eae228a365e501235c78
+  size: 933
+  modtime: 1604055016
+/Users/rabbit0v0/Erlang/exam/code/apql/src/ParserImpl.hs:
+  hash: 58f8e23f26fc715427b0463ce68732b45fbecfb1244c59fe922a7d31a29828ad
+  size: 4295
+  modtime: 1604346170
+/Users/rabbit0v0/Erlang/exam/code/apql/src/Utils.hs:
+  hash: ceb74462a450e6c35a07d7a640e30c041de61a7837ff900314c0f42affe0410a
+  size: 140
+  modtime: 1604052038
+/Users/rabbit0v0/Erlang/exam/code/apql/src/Parser.hs:
+  hash: 5021f928c9e7f1ad5a8898245881c4883bfee9e709d7d7649f900ab0d85ba50d
+  size: 112
+  modtime: 1604036404

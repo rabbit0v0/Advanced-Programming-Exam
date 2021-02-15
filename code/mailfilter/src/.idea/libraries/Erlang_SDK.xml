@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="Erlang SDK">
+    <CLASSES>
+      <root url="file:///usr/local/Cellar/erlang/23.0.3" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

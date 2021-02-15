@@ -1,0 +1,7 @@
+parent(x,y) if father(x,y).
+parent(x,y) if mother(x,y).
+sibling(x,y) if father(f,x) and father(f,y) and mother(m,x) and mother(m,y)
+and x is not y.
+ancestor(x,y) if parent(x,y) or (ancestor(x,z) and parent(z,y)).
+paradox(x) if ancestor(x,x).
+myquery(x) if sibling("Frank", x) and not ancestor(x, "Rupert").

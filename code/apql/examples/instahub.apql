@@ -1,0 +1,32 @@
+(* intensional predicates: person(x), follows(x,y) *)
+
+(* different(x,y): x and y are different people *)
+different(x,y) if person(x) and person(y) and x is not y.
+
+ignores(x,y) if follows(y,x) and not follows(x,y).
+
+popular(x) if person(x) and not rejected(x).
+
+(* rejected(x): x follows at least one person who doesn't follow x back *)
+rejected(x) if ignores(y,x).
+
+outcast(x) if person(x) and not accepted(x).
+
+(* at least one person whom x follows, follows x back *)
+accepted(x) if follows(x,y) and follows(y,x).
+
+friendly(x) if person(x) and not unfriendly(x).
+
+unfriendly(x) if ignores(x,y).
+
+hostile(x) if person(x) and not agreeable(x).
+
+agreeable(x) if follows(y,x) and follows(x,y).
+
+aware(x,y) if different(x,y) and follows(x,z) and (z is y or aware(z,y)).
+
+ignorant(x,y) unless aware(x,y) or not different(x,y).
+
+
+
+

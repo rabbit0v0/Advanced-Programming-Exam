@@ -1,0 +1,10 @@
+(* no extensional predicates *)
+
+bigger("elephant", "horse").
+bigger("horse", "donkey").
+bigger("donkey", "dog").
+bigger("donkey", "monkey").
+
+bigger(X,Y) if bigger(X,Z) and bigger(Z,Y).
+
+query(R) if bigger(R,"monkey").
